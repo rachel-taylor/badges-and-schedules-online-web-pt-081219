@@ -8,11 +8,11 @@ def batch_badge_creator(attendees)
    end 
 end
 
-def assign_rooms(attendees)
-  attendees.each do |name|
-    puts badge_maker(name)
-  end 
-  assign_rooms(attendees).each do |number|
-    puts number
-  end 
-end 
+# def assign_rooms(attendees)
+#   attendees.each do |name|
+#     puts badge_maker(name)
+#   end 
+#   assign_rooms(attendees).each do |number|
+#     puts number
+#   end 
+# end 
